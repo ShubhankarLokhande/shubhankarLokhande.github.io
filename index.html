@@ -5,36 +5,62 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
+            background: #eef2f5;
+            margin: 0;
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            width: 90%;
+            max-width: 450px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             text-align: center;
-            padding: 30px;
         }
-        .container {
-            max-width: 500px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+        h1 {
+            margin-bottom: 5px;
+            font-size: 24px;
         }
-        h1 { margin-bottom: 5px; }
+
+        p {
+            color: #666;
+            margin-top: 0;
+        }
+
+        h2 {
+            text-align: left;
+            margin-top: 25px;
+            font-size: 18px;
+            color: #333;
+        }
+
         a {
             display: block;
-            margin: 10px 0;
-            padding: 10px;
-            background: #e7efff;
-            color: black;
             text-decoration: none;
-            border-radius: 6px;
+            padding: 12px;
+            margin: 8px 0;
+            background: #f3f6ff;
+            border-radius: 8px;
+            color: #000;
+            font-weight: bold;
+            border: 1px solid #d8e1ff;
+            transition: 0.2s;
         }
+
         a:hover {
-            background: #d3e1ff;
+            background: #dfe8ff;
         }
+
     </style>
 </head>
 <body>
 
-    <div class="container">
+    <div class="card">
         <h1>Shubhankar Lokhande</h1>
         <p>Java Full Stack Developer</p>
 
@@ -44,13 +70,17 @@
         <a href="mailto:YOUR-EMAIL@EXAMPLE.COM">Email Me</a>
 
         <h2>Research Paper</h2>
-        <a href="https://www.jetir.org/papers/JETIR250482" target="_blank">Research Paper Page</a>
+        <a href="https://www.jetir.org/papers/JETIR250482" target="_blank">Research Paper (JETIR)</a>
         <a href="https://www.jetir.org/view?paper=JETIR2504827" target="_blank">Published Paper</a>
         <a href="https://www.jetir.org/confirmationlettermanager.php?a_rid=559689" target="_blank">Confirmation Letter</a>
 
         <h2>Internship Certificate</h2>
-        <a href="/mnt/data/Shubhankar Lokhande Internships.pdf" target="_blank">QSpiders Internship Certificate (PDF)</a>
+        <a href="/mnt/data/Shubhankar Lokhande Internships.pdf" target="_blank">
+            QSpiders Internship Certificate (PDF)
+        </a>
+
     </div>
 
 </body>
 </html>
+
